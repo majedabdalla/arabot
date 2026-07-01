@@ -165,7 +165,7 @@ async def show_referral_info(update: Update, context: ContextTypes.DEFAULT_TYPE)
     )
     
     # Create share button
-    share_text = locale.get('referral_share_text', f'Join me on Sawalef! 🎉')
+    share_text = locale.get('referral_share_text', f'Join me on Ga3da! 🎉')
     share_url = f"https://t.me/share/url?url={referral_link}&text={share_text}"
     
     kb = InlineKeyboardMarkup([
