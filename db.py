@@ -9,7 +9,7 @@ MONGODB_URI = os.getenv("MONGODB_URI", "mongodb://localhost:27017")
 # global bot, but lives in its own DATABASE namespace so the two never touch the
 # same collections/data. Override with MONGODB_DB_NAME if you ever need to, but
 # never set it to "anonindochat" (that's the original bot's database).
-MONGODB_DB_NAME = os.getenv("MONGODB_DB_NAME", "sawalefchat")
+MONGODB_DB_NAME = os.getenv("MONGODB_DB_NAME", "Ga3dabot")
 logger = logging.getLogger(__name__)
 
 try:
