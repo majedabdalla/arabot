@@ -1,5 +1,5 @@
 {
-    "start": "Welcome to Sawalef! Your Arab chat bot for meeting new people from across the Arab world. Please choose your language:",
+    "start": "Welcome to Ga3da! Your Arab chat bot for meeting new people from across the Arab world. Please choose your language:",
     "main_menu": "Main Menu:",
     "profile_complete": "Profile setup complete. You're ready to chat!",
     "profile_gender": "Select your gender:",
@@ -89,7 +89,7 @@
     "referral_step2": "They join using your link",
     "referral_step3": "You get 1 day of premium for each referral!",
     "referral_unlimited": "Unlimited referrals = Unlimited premium!",
-    "referral_share_text": "Join me on Sawalef! 🎉",
+    "referral_share_text": "Join me on Ga3da! 🎉",
     "share_link": "Share Link",
     "referral_reward": "Congrats! Someone joined using your referral link. You got 1 day of premium!",
     "queue_waiting": "No matches right now. You are in the priority queue and will be matched as soon as someone matching your filters comes online!",
