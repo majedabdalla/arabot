@@ -101,7 +101,7 @@ async def start(update: Update, context):
         for code, locale in LANGS.items()
     ])
     welcome_text = (
-        "🎉 *أهلاً بك في سوالف!*\n\n"
+        "🎉 *أهلاً بك في قعدة!*\n\n"
         "👋 منصتك العربية للدردشة العشوائية والتعارف على أشخاص جدد من الوطن العربي!\n\n"
         "🌍 *اختر لغتك للبدء — Choose your language:*"
     )
@@ -232,7 +232,7 @@ async def referral_menu_callback(update: Update, context):
         f"🎉 {locale.get('referral_unlimited', 'Unlimited referrals = Unlimited premium!')}"
     )
 
-    share_text = locale.get('referral_share_text', f'Join me on Sawalef! 🎉')
+    share_text = locale.get('referral_share_text', f'Join me on Ga3da! 🎉')
     share_url = f"https://t.me/share/url?url={referral_link}&text={share_text}"
 
     kb = InlineKeyboardMarkup([
@@ -330,7 +330,7 @@ async def check_premium_queue_job(context):
 
 async def startup(application):
     """Startup tasks"""
-    logger.info("🚀 Starting Sawalef Bot...")
+    logger.info("🚀 Starting Ga3da Bot...")
 
     if not await test_connection():
         logger.error("❌ Database connection failed! Bot cannot start.")
@@ -346,7 +346,7 @@ async def startup(application):
 
 async def shutdown(application):
     """Shutdown tasks"""
-    logger.info("🛑 Shutting down Sawalef Bot...")
+    logger.info("🛑 Shutting down Ga3da Bot...")
     await mark_all_users_offline()
     logger.info("✅ Bot shutdown complete!")
 
@@ -439,7 +439,7 @@ def main():
             logger.info(f"Periodic cleanup: removed {cleaned} stale mappings")
     app.job_queue.run_repeating(cleanup_job, interval=1800, first=300)
 
-    logger.info("🚀 Sawalef Bot started successfully!")
+    logger.info("🚀 Ga3da Bot started successfully!")
     logger.info("📡 Polling for updates...")
     logger.info("⏰ Premium queue checker running every 45 seconds")
     logger.info("🧹 Cleanup job running every 30 minutes")
